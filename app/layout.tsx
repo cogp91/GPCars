@@ -1,4 +1,4 @@
-import {Footer, Navbar} from '@/components'
+import {Footer, Navbar, Carcatalogue} from '@/components'
 import './globals.css'
 
 
@@ -17,6 +17,7 @@ export default function RootLayout({
       <body className="relative">
         <Navbar />
         {children}
+        <Carcatalogue />
         <Footer />
       </body>
     </html>
